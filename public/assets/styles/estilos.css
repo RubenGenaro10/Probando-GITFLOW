@@ -1,7 +1,4 @@
-section.HighBox{
-    background: linear-gradient(to left, rgb(51, 72, 167), rgb(79, 176, 231));
-    padding: 3rem 0;
-}
+
 body{
     background: EEEEEE;
     font-family: 'Quicksand', sans-serif;
@@ -42,4 +39,32 @@ nav ul li a{
 li a.active, li a:hover{
     background: #009FE3;
     transition: .5s;
+}
+
+section.HighBox{
+    background: linear-gradient(to left, rgb(51, 72, 167), rgb(79, 176, 231));
+    padding: 3rem 0;
+}
+.HighBoxA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HighBoxB{
+    padding:1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: space-between;}
+
+.btnConocerMas{
+    background: #525563;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
 }
